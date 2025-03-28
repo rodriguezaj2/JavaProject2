@@ -12,7 +12,7 @@ public class Task5 {
             char[] char1 = word1.toCharArray();
             char[] char2 = word2.toCharArray();
 
-            Arrays.sort(char1);
+            Arrays.sort(char1); // sorts letters in ascending numberical order
             Arrays.sort(char2);
 
             if (Arrays.equals(char1, char2)) {

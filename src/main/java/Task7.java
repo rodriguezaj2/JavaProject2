@@ -2,7 +2,7 @@ public class Task7 {
     public static void main(String[] args) {
         String word="Hello, world!";
 
-        String [] arr=word.split(" ");
+        String [] arr=word.split("[A-Za-z]+");
 
 
         System.out.println(arr.length);

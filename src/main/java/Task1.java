@@ -1,12 +1,13 @@
 public class Task1 {
     public static void main(String[] args) {
 
-        int a=5;
-        int b=10;
+        String a="This will be b";
+        String b="This will be a";
 
-        a=b+a; //15
-        b=a-b; //5
-        a=a-b;
+        a=a+b;
+        b=a.substring(0,a.length()-b.length());
+        a=a.substring(b.length());
+
 
         System.out.println("a = "+a);
         System.out.println("b = "+b);
